@@ -1,0 +1,115 @@
+.navbar{
+    background-color:whitesmoke !important;
+}
+.nav-link{
+    color:black!important;
+    font-size: 15px !important; 
+    opacity: 30px !important;
+}
+.fa-home,.nav-link:hover{
+    background-color:pink!important;
+    border-bottom: 1px;
+    border-radius: 5px;
+}
+.navbar-brand{
+    margin-left: 50px !important;
+    margin-right: 50px;
+}
+.navbar-item{
+    margin-right: 15px !important;
+    border:solid black;
+    background-color:whitesmoke;
+    border-radius: 5px;
+} 
+.fa-home{
+    font-size: 40px !important;
+    margin-bottom: auto;
+}
+.signin{
+    margin-left: 200px !important;
+}
+.login{
+    margin-left: 50px !important;
+}
+
+.fa-user,.fa-cart-arrow-down{
+    padding: 10px !important;
+    color:black;
+    font-size: 30px !important;
+}
+.fa-user,.fa-cart-arrow-down:hover{
+    background-color:pink;
+    border-radius: 5px;
+}
+.fa-coffee,.fa-compass,.fa-cloud{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: greenyellow;
+}
+.card_1,.card_2,.card_3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 10px black;
+}
+.mastercard{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h3{
+    color:maroon;
+}
+@media only screen and (max-width: 600px) {
+    .card_1,.card_2,.card_3{ 
+      width: 100%;
+    }
+  }
+.newarrival{
+    margin-top: 30px;
+}
+.card{
+    height: auto;
+    width: auto;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 5px gray;
+}
+.card-title{
+    text-align: center;
+    font-weight: bold;
+    color: maroon;
+}
+.btn-primary{
+    width: 100% !important;
+    background-color: maroon;
+}
+.card-text{
+    font-weight: bold;
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+    color: maroon;
+    text-shadow: 2px 2px 4px;
+}
+.footer {
+    width: 100% !important;
+    height: 50px;
+    background-color: maroon; 
+    text-align: center;
+}
+
+.fa-copyright{
+font-size: 15px !important;
+color: white;
+font-weight: bold;
+
+
+
+}
